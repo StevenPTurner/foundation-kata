@@ -1,0 +1,27 @@
+{
+  "name": "foundation-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenPTurner/foundation-kata.git"
+  },
+  "author": "Steven Turner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenPTurner/foundation-kata/issues"
+  },
+  "homepage": "https://github.com/StevenPTurner/foundation-kata#readme",
+  "dependencies": {
+    "jasmine-console-reporter": "^3.1.0",
+    "jasmine-core": "^3.5.0",
+    "jasmine-node": "^3.0.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jasmine-ts-console-reporter": "^3.1.1",
+    "karma-jasmine": "^2.0.1"
+  }
+}
