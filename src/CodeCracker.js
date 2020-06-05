@@ -1,5 +1,6 @@
 function decrypt(encryptedWord, key) {
-    encryptedWord.replace("a", "p");
+    encryptedWord.replace(/p/g, "a");
+    encryptedWord.replace(/b/g, "z");
     return encryptedWord;     
 }
 
