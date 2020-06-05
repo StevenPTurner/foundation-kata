@@ -1,5 +1,6 @@
 function decrypt(encryptedWord, key) {
-    return "cat";     
+    encryptedWord.replace("a", "p");
+    return encryptedWord;     
 }
 
 module.exports = {
