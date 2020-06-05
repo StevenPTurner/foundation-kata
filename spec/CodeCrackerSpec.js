@@ -15,7 +15,7 @@ describe('code cracker', function() {
         });
 
         it('should return zulu when the encrypted word is bulu and the key is azcdefghigklmnoaqrstuvwxyb',function() {
-            expect(crypt.decrypt("bulu", "azcdefghigklmnoaqrstuvwxyb")).toBe("zulu");
+            expect(crypt.decrypt("bulu", "abcdefghigklmnoaqrstuvwxyb")).toBe("zulu");
         });
     });
 

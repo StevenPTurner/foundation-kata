@@ -1,7 +1,11 @@
 function decrypt(encryptedWord, key) {
-    encryptedWord.replace(/p/g, "a");
-    encryptedWord.replace(/b/g, "z");
-    return encryptedWord;     
+
+    var result = encryptedWord;
+
+    result = result.replace(/p/g, "a");
+    result = result.replace(/b/g, "z");
+
+    return result;
 }
 
 module.exports = {
