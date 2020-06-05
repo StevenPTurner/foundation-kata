@@ -1,4 +1,4 @@
-describe('example', function () {
+xdescribe('example', function () {
     var example;
 
     beforeEach(function () {
